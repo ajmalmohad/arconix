@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -102,3 +104,36 @@ body{
 
 
 /* Content */
+.sec1{
+    text-align: center;
+    margin:80px 30%;
+    font-family: 'Poppins', sans-serif;
+}
+.sec1 .head{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    margin:20px 0;
+}
+.sec1 p{
+    margin:20px 0;
+}
+.sec1 .cta button{
+    width:150px;
+    padding:10px 20px;
+    margin:0 10px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    border:none;
+    border-radius: 10px;
+}
+.sec1 .cta .btn1{
+    background: #34BFF0;
+    color:white
+}
+.sec1 .cta .btn2{
+    background:white;
+    color:#34BFF0;
+    border:2px solid #34BFF0;
+}
