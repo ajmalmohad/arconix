@@ -205,3 +205,38 @@ body{
         border-top: 1px solid grey;
     }
 }
+
+/* Section 3 */
+.sec3{
+    margin:10vh 0;
+    font-family: 'Poppins', sans-serif;
+}
+.sec3 .head{
+    text-align: center;
+    margin:0 30%;
+}
+.sec3 .head h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin:20px 0;
+}
+.sec3 .head p{
+    margin:20px 0;
+    font-size: 16px;
+}
+.sec3 .features{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:50px 5%;
+}
+.sec3 .features .element{
+    margin:0px 30px;
+    text-align: center;
+}
+.sec3 .features .element h1{
+    font-size: 24px;
+    font-weight: 400;
+    margin:10px 0;
+}
