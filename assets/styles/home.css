@@ -240,3 +240,30 @@ body{
     font-weight: 400;
     margin:10px 0;
 }
+
+@media only screen and (max-width:900px){
+    .sec3 .features {
+        flex-direction: column;
+        margin:50px 20%;
+    }
+    .sec3 .features .element{
+        margin:30px 30px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:650px){
+    .sec3 .head {
+        margin: 0 20%;
+    }
+    .sec3 .features {
+        margin:50px 10%;
+    }
+}
+@media only screen and (max-width:420px){
+    .sec3 .head {
+        margin: 0 10%;
+    }
+    .sec3 .features {
+        margin:50px 5%;
+    }
+}
