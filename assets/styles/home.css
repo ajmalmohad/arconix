@@ -104,6 +104,7 @@ body{
 
 
 /* Content */
+/* Section 1 */
 .sec1{
     text-align: center;
     margin:80px 30%;
@@ -128,6 +129,7 @@ body{
     font-family: 'Poppins', sans-serif;
     border:none;
     border-radius: 10px;
+    cursor: pointer;
 }
 .sec1 .cta .btn1{
     background: #34BFF0;
@@ -157,5 +159,49 @@ body{
 @media only screen and (max-width:380px){
     .sec1{
         margin:80px 5%;
+    }
+}
+
+/* Section 2 */
+.sec2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:20vh 0;
+}
+.sec2 .info{
+    padding:20px 80px;
+}
+.sec2 .info .data{
+    font-size: 26px;
+    font-weight: 700;
+    color:#34BFF0;
+}
+.sec2 .info .label{
+    margin:10px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+.sec2 .info1{
+    border-right: 2px solid grey;
+}
+.sec2 .info3{
+    border-left: 2px solid grey;
+}
+@media only screen and (max-width:650px){
+    .sec2{
+        flex-direction: column;
+        margin:10vh 0;
+    }
+    .sec2 .info1{
+        border-right: none;
+        border-bottom: 1px solid grey;
+    }
+    .sec2 .info3{
+        border-left: none;
+        border-top: 1px solid grey;
     }
 }
