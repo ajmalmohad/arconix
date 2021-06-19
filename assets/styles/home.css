@@ -271,7 +271,7 @@ body{
 
 /* Section 4 */
 .sec4{
-    height:90vh;
+    height:100vh;
     margin-bottom: 10vh;
     display: flex;
     flex-direction: row;
