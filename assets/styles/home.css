@@ -133,7 +133,7 @@ body{
 }
 .sec1 .cta .btn1{
     background: #34BFF0;
-    color:white
+    color:white;
 }
 .sec1 .cta .btn2{
     background:white;
@@ -266,4 +266,41 @@ body{
     .sec3 .features {
         margin:50px 5%;
     }
+}
+
+
+/* Section 4 */
+.sec4{
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.sec4 .image{
+    height:80vh;
+}
+.sec4 .image img{
+    height:80vh;
+    object-fit: contain;
+    align-self: end;
+}
+.sec4 .content{
+    padding:0 15% 0 10%;
+    font-size: 16px;
+}
+.sec4 .content p{
+    margin:20px 0;
+}
+.sec4 .content button{
+    width:200px;
+    padding:10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #34BFF0;
+    color:white
 }
